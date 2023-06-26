@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="386.0" prefWidth="538.0" style="-fx-background-color: #F5F5DC;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerPlanos">
+    <children>
+      <Button fx:id="btn_basico" layoutX="18.0" layoutY="289.0" prefHeight="39.0" prefWidth="159.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000; -fx-border-radius: 5;" text="Selecionar Básico">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" graphicTextGap="10.0" layoutX="167.0" layoutY="2.0" prefHeight="56.0" prefWidth="206.0" text="Planos COFI" underline="true">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_super" layoutX="197.0" layoutY="289.0" prefHeight="39.0" prefWidth="145.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000; -fx-border-radius: 5;" text="Selecionar Super">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_plus" layoutX="359.0" layoutY="289.0" prefHeight="39.0" prefWidth="166.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000; -fx-border-radius: 5;" text="Selecionar Super+">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_cancelar" layoutX="227.0" layoutY="333.0" prefHeight="39.0" prefWidth="86.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000; -fx-border-radius: 5;" text="Cancelar">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Pane layoutX="18.0" layoutY="67.0" prefHeight="210.0" prefWidth="159.0" style="-fx-background-color: white; -fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 10; -fx-background-radius: 10;">
+         <children>
+            <Label layoutX="22.0" layoutY="14.0" prefHeight="30.0" prefWidth="115.0" text="COFI Básico">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="50.0" prefHeight="30.0" prefWidth="129.0" text="- Cadastrar Ativos;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="78.0" prefHeight="30.0" prefWidth="145.0" text="- Cadastrar Passivos;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="105.0" prefHeight="30.0" prefWidth="129.0" text="- Gerar Relatórios">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="120.0" prefHeight="30.0" prefWidth="129.0" text="1x/Mês">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="194.0" layoutY="67.0" prefHeight="210.0" prefWidth="152.0" style="-fx-background-color: #AFEEEE; -fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 10; -fx-background-radius: 10;">
+         <children>
+            <Label layoutX="27.0" layoutY="16.0" prefHeight="30.0" prefWidth="115.0" text="COFI Super">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="40.0" prefHeight="30.0" prefWidth="129.0" text="- Plano Básico;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="1.0" layoutY="63.0" prefHeight="30.0" prefWidth="159.0" text="-Relatórios Quinzenais">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="3.0" layoutY="77.0" prefHeight="30.0" prefWidth="145.0" text="automáticos via email">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="4.0" layoutY="102.0" prefHeight="30.0" prefWidth="145.0" text="- Cadastrar contas">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="4.0" layoutY="119.0" prefHeight="30.0" prefWidth="145.0" text="bancarias;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="4.0" layoutY="145.0" prefHeight="30.0" prefWidth="145.0" text="- Dicas para">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="158.0" prefHeight="30.0" prefWidth="145.0" text="investimentos mais">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="171.0" prefHeight="30.0" prefWidth="145.0" text="quentes do mercado">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="363.0" layoutY="67.0" prefHeight="210.0" prefWidth="159.0" style="-fx-background-color: #98FB98; -fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 10; -fx-background-radius: 10;">
+         <children>
+            <Label layoutX="22.0" layoutY="14.0" prefHeight="30.0" prefWidth="115.0" text="COFI Super+">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="37.0" prefHeight="30.0" prefWidth="129.0" text="- Plano Super;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="62.0" prefHeight="30.0" prefWidth="152.0" text="- Relatórios Semanais">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="76.0" prefHeight="30.0" prefWidth="152.0" text="automaticos via email;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="5.0" layoutY="102.0" prefHeight="30.0" prefWidth="152.0" text="-Passivos e Ativos com">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="116.0" prefHeight="30.0" prefWidth="152.0" text="uploads automáticos;">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="147.0" prefHeight="30.0" prefWidth="152.0" text="-Relatórios prontos">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="164.0" prefHeight="30.0" prefWidth="152.0" text="para IR">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label fx:id="lb_idUser" layoutX="429.0" layoutY="30.0" opacity="0.0" prefHeight="17.0" prefWidth="21.0" />
+    </children>
+</AnchorPane>

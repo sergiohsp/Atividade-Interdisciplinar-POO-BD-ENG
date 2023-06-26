@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="386.0" prefWidth="538.0" style="-fx-background-color: #F5F5DC;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerAtualizarInfos">
+    <children>
+      <Button fx:id="btn_atualizar" layoutX="519.0" layoutY="321.0" prefHeight="39.0" prefWidth="106.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000; -fx-border-radius: 5;" text="Atualizar">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" graphicTextGap="10.0" layoutX="12.0" layoutY="45.0" prefHeight="39.0" prefWidth="255.0" text="Atualizar Informações" underline="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" graphicTextGap="10.0" layoutX="14.0" layoutY="1.0" prefHeight="48.0" prefWidth="78.0" text="COFI" textFill="#286808">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" graphicTextGap="10.0" layoutX="73.0" layoutY="6.0" prefHeight="39.0" prefWidth="449.0" text=" - Controle de Organização Financeira" textFill="#286808">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_nome" layoutX="20.0" layoutY="97.0" opacity="0.43" prefHeight="36.0" prefWidth="195.0" promptText="* Nome" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" graphicTextGap="10.0" layoutX="5.0" layoutY="322.0" prefHeight="36.0" prefWidth="509.0" text="_______________________________________________" underline="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_sobrenome" layoutX="224.0" layoutY="97.0" opacity="0.43" prefHeight="38.0" prefWidth="290.0" promptText="* Sobrenome" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_cpf" layoutX="529.0" layoutY="97.0" opacity="0.43" prefHeight="38.0" prefWidth="141.0" promptText="* CPF" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="cb_pais" layoutX="20.0" layoutY="149.0" opacity="0.43" prefHeight="35.0" prefWidth="148.0" promptText="* País" style="-fx-border-color: #000000; -fx-background-color: white; -fx-border-width: 2;" />
+      <ComboBox fx:id="cb_estado" layoutX="204.0" layoutY="149.0" opacity="0.43" prefHeight="35.0" prefWidth="188.0" promptText="* Estado" style="-fx-border-color: #000000; -fx-background-color: white; -fx-border-width: 2;" />
+      <TextField fx:id="tf_cidade" layoutX="407.0" layoutY="149.0" opacity="0.43" prefHeight="31.0" prefWidth="155.0" promptText="* Cidade" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_celular" layoutX="95.0" layoutY="197.0" opacity="0.43" prefHeight="31.0" prefWidth="141.0" promptText="* Num. Celular" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_ddd" layoutX="24.0" layoutY="196.0" opacity="0.43" prefHeight="31.0" prefWidth="59.0" promptText="* DDD" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_email" layoutX="21.0" layoutY="248.0" opacity="0.43" prefHeight="31.0" prefWidth="290.0" promptText="* Email" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_senha" layoutX="20.0" layoutY="297.0" opacity="0.43" prefHeight="31.0" prefWidth="229.0" promptText="* Senha" style="-fx-border-color: #000000; -fx-border-radius: 3; -fx-border-width: 2;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_senhaConfirm" layoutX="269.0" layoutY="297.0" opacity="0.43" prefHeight="31.0" prefWidth="229.0" promptText="* Confirme a Senha" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_emailConfirm" layoutX="326.0" layoutY="248.0" opacity="0.43" prefHeight="31.0" prefWidth="290.0" promptText="* Confirme o Email" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_salario" layoutX="260.0" layoutY="197.0" opacity="0.43" prefHeight="35.0" prefWidth="148.0" promptText="* Salário" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tf_meta" layoutX="422.0" layoutY="197.0" opacity="0.43" prefHeight="35.0" prefWidth="148.0" promptText="* Meta Financeira" style="-fx-border-color: #000000; -fx-border-width: 2; -fx-border-radius: 3;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" graphicTextGap="10.0" layoutX="381.0" layoutY="45.0" prefHeight="39.0" prefWidth="276.0" text="* - Informações Obrigatórias" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_idUser" layoutX="570.0" layoutY="25.0" opacity="0.0" prefHeight="18.0" prefWidth="35.0" />
+    </children>
+</AnchorPane>
